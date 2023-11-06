@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcelas</title>
+</head>
+<body>
+    <script>
+        let cliente, produto, valor, parcelas;
+        let valorTotal;
+        const juros = 0.1;
+
+        cliente = prompt ('Qual seu nome?');
+        produto = prompt ('Qual produto você comprou?');
+        valor = prompt ('Quanto você pagou no produto?');
+        parcelas = prompt ('Quantas parcelas você dividiu o produto?');
+
+        document.write (`Olá ${cliente}, você comprou um(a) ${pruduto} por ${valor}! <br>`);
+        document.write (`Então você parcelou ${parcelas} vezes!`);
+        document.write (`A situação é... <br>`);
+        document.write (`R$${valor} / ${parcelas} <br>`);
+        document.write (`Você pagou um total de R$${valor/parcelas}`);
+
+    </script>
+</body>
+</html>

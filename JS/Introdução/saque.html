@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saque Santander</title>
+</head>
+<body>
+    <script>
+        let nome, cpf, deposito, saque;
+
+
+        cliente = prompt('Qual seu nome?');
+        cpf = prompt ('Qual seu cpf?')
+        deposito = prompt('Quanto você deseja depositar?');
+        saque = prompt('Quanto você quer sacar?');
+        
+        document.write (`Cpf ( ${cpf} ) encontrado! <br>`);
+        document.write (`Olá ${cliente}, você depositou: R$${deposito} <br> <br>`);
+        document.write (`Situação... <br>`);
+        document.write (`R$${deposito} - ${saque} <br>`);
+        document.write (`Seu saldo é de: R$${deposito-saque}`);
+
+    </script>
+</body>
+</html>
